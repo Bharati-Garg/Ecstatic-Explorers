@@ -1,0 +1,60 @@
+@media (max-width: 991px) {
+  .holiday-top {
+    height: 600px;
+  }
+
+  .box .btn {
+    display: none;
+  }
+  .box p a {
+    margin-top: 0px;
+    line-height: 0px;
+  }
+  .sticky2 {
+    margin-left: 400px;
+    z-index: 99;
+  }
+}
+
+@media (max-width: 767px) {
+  .box img {
+    width: 50%;
+  }
+  .box p {
+    display: flex;
+    justify-content: start;
+  }
+  .review {
+    margin-top: 0px;
+  }
+  .review2 {
+    margin-top: 10px;
+  }
+  .review4 {
+    margin-top: 10px;
+  }
+  .review3 {
+    margin-bottom: 10px;
+  }
+  .insta img {
+    margin-bottom: 10px;
+  }
+  .sticky {
+    z-index: 99;
+  }
+  .sticky2 {
+    position: fixed;
+  }
+}
+
+@media (max-width: 576px) {
+  .sticky2 {
+    margin-left: 200px;
+  }
+}
+
+@media (max-width: 400px) {
+  .sticky2 {
+    display: none;
+  }
+}
