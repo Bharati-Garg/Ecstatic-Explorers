@@ -7,6 +7,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+a{
+  list-style-type: none;
+}
 .body {
   font-family: "Playball", cursive;
   overflow-x: hidden;
@@ -95,6 +98,7 @@
   justify-content: space-around;
   align-items: center;
   padding-left: 30px;
+  align-items: center;
 }
 .icon-slider p {
   font-family: "Inter", sans-serif;
@@ -167,16 +171,18 @@
 /* Holiday Section */
 .holiday-top {
   width: 100%;
-  background: url("images/mountain.jpg") no-repeat center;
+  background: url("images/329.png") no-repeat center;
   background-size: cover;
   height: 540px;
   margin-top: 40px;
   display: flex;
   align-items: center;
   border-radius: 10px;
+  background-color: rgba(0, 0, 0, .8);
+  opacity: .9;
 }
 .holiday-top .text {
-  margin-top: 140px;
+  margin-top: 0px;
 }
 .holiday-top p {
   font-family: "Poppins", sans-serif;
@@ -184,6 +190,7 @@
   font-weight: 500;
   text-align: left;
   color: #9ef01a;
+  margin-top: 0px;
 }
 .holiday-top h1 {
   font-family: "Poppins", sans-serif;
@@ -191,6 +198,7 @@
   font-weight: 600;
   text-align: left;
   color: #fff;
+  margin-top: 0px;
 }
 .holiday-top h6 {
   font-family: "Poppins", sans-serif;
@@ -209,12 +217,15 @@
 .box {
   background-color: #fff;
   border-radius: 20px;
+  border: 1px solid #008000;
 }
 .box h5 {
   margin-left: 10px;
 }
 .box img {
   width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 .box .btn {
   background-color: #63ab45;
@@ -266,7 +277,7 @@
   height: 50%;
 }
 .fa-star {
-  font-size: 10px;
+  font-size: 12px;
 }
 .review h3 {
   font-family: "Poppins", sans-serif;
@@ -281,6 +292,7 @@
   font-weight: 500;
   text-align: left;
   color: #797979;
+  margin-bottom: 0px;
 }
 
 .review img {
@@ -310,6 +322,7 @@
   font-weight: 500;
   text-align: left;
   color: #797979;
+  margin-bottom: 0px;
 }
 
 .review2 img {
@@ -339,6 +352,7 @@
   font-weight: 500;
   text-align: left;
   color: #797979;
+  margin-bottom: 0px;
 }
 
 .review3 img {
@@ -369,15 +383,18 @@
 .google-text {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+.google-para p{
+  font-size: .8rem;
 }
 .google-para p span {
-  font-weight: 900;
+  font-weight: 700;
 }
 .google-testi {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .google-btn {
@@ -389,7 +406,7 @@
   background-color: #63ab45;
   color: #fff;
   border-radius: 10px;
-  padding: 5px 20px;
+  padding: 5px;
 }
 
 .last-btn {
@@ -428,7 +445,7 @@
   text-align: left;
   color: #fff;
 }
-footer a {
+.footer a {
   font-family: "Poppins", sans-serif;
   font-size: 13px;
   display: block;
@@ -450,6 +467,9 @@ footer a:hover {
   justify-content: space-around;
 }
 
+.footer ul li{
+  list-style: none;
+}
 .sticky {
   position: relative;
 }
@@ -480,7 +500,7 @@ footer a:hover {
 }
 
 .google-p h6 span {
-  font-weight: 900;
+  font-weight: 700;
 }
 .google-testi {
   display: flex;

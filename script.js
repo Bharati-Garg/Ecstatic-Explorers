@@ -3,13 +3,10 @@ var swiper = new Swiper(".icon", {
   slidesPerView: 6,
   spaceBetween: 20,
   arrows: true,
-  loop: true,
+  loop: false,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
-  },
-  autoplay: {
-    delay: 2000,
   },
   breakpoints: {
     991: {
